@@ -1,0 +1,23 @@
+{
+  "Applications": {
+    "$1": {
+      "Application": {
+        "Description": "A GitHub application host for {{NPM_PACKAGE}}.",
+        "Name": "GitHub Application: {{NPM_PACKAGE}}"
+      },
+      "LookupConfig": {
+        "PathRegex": "{{APP_PATH}}.*"
+      },
+      "LowCodeUnit": {
+        "Package": "{{NPM_PACKAGE}}",
+        "Version": "{{PACKAGE_VERSION}}",
+        "Type": "NPM"
+      },
+      "Processor": {
+        "BaseHref": "{{APP_PATH}}/",
+        "DefaultFile": "index.html",
+        "Type": "DFS"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "Package": {
+    "Name": "Create NPM application",
+    "Description": "An LCU for installing a NPM application.",
+    "Image": "https://www.fathym.com/assets/images/logo.png",
+    "PreviewImage": "https://www.fathym.com/assets/images/logo.png"
+  }
+}
